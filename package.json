@@ -1,0 +1,30 @@
+{
+  "name": "deep-thoughts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wumbo-dot/deep-thoughts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Wumbo-dot/deep-thoughts/issues"
+  },
+  "homepage": "https://github.com/Wumbo-dot/deep-thoughts#readme"
+}
